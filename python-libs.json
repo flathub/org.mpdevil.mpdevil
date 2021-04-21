@@ -31,8 +31,8 @@
             "sources": [
                 {
                     "type": "file",
-                    "url": "https://files.pythonhosted.org/packages/a7/28/3815c3df554bf0ecbc85595ac1a0bf15442c9564356cca8dca6c2b070b78/python-mpd2-2.0.1.tar.gz",
-                    "sha256": "ad123ac58609c02a0061c54b97acc0e63715ad51d7df768c47f00bcd2099899e"
+                    "url": "https://files.pythonhosted.org/packages/ad/92/bec26455a3a6d6146bcf2a974f5c3509d451306413b386fc12b037d9e3b0/python-mpd2-3.0.4.tar.gz",
+                    "sha256": "7a67834e22d97e7cd77f8951c8baf87c149285c67d67d73550ce034302561ae5"
                 }
             ]
         },
