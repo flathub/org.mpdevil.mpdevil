@@ -17,13 +17,18 @@
     "python-libs.json",
     {
       "name": "mpdevil",
-      "buildsystem": "meson",
       "sources": [{
         "type": "git",
         "url": "https://github.com/SoongNoonien/mpdevil.git",
         "tag": "v1.5.0",
         "commit": "69e1ee174958e6f5bd86e8996a3360d1b9c32493"
-      }]
+      }],
+      "buildsystem": "simple",
+      "build-commands": [
+        "meson builddir --prefix=/app",
+        "ninja -C builddir install",
+        "glib-compile-schemas /app/share/glib-2.0/schemas"
+      ]
     }
   ]
 }
