@@ -11,6 +11,7 @@
     "--share=network",
     "--filesystem=xdg-music",
     "--talk-name=org.freedesktop.Notifications",
+    "--talk-name=org.freedesktop.FileManager1",
     "--own-name=org.mpris.MediaPlayer2.mpdevil"
   ],
   "modules": [
@@ -20,8 +21,8 @@
       "sources": [{
         "type": "git",
         "url": "https://github.com/SoongNoonien/mpdevil.git",
-        "tag": "v1.6.0",
-        "commit": "f3cc6c068077906bf58b6acdd5375d76da17c6cc"
+        "tag": "v1.7.0",
+        "commit": "e328a48af05f6ee470435c5180299c442e479bc6"
       }],
       "buildsystem": "simple",
       "build-commands": [
