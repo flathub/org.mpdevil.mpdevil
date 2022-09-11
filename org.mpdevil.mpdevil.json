@@ -1,7 +1,7 @@
 {
   "app-id": "org.mpdevil.mpdevil",
   "runtime": "org.gnome.Platform",
-  "runtime-version": "41",
+  "runtime-version": "42",
   "sdk": "org.gnome.Sdk",
   "command": "mpdevil",
   "finish-args": [
@@ -21,8 +21,8 @@
       "sources": [{
         "type": "git",
         "url": "https://github.com/SoongNoonien/mpdevil.git",
-        "tag": "v1.7.0",
-        "commit": "e328a48af05f6ee470435c5180299c442e479bc6"
+        "tag": "v1.8.0",
+        "commit": "02dec1f5f890644abda704030b4b5aa01197070e"
       }],
       "buildsystem": "simple",
       "build-commands": [
