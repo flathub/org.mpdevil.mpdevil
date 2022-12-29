@@ -11,6 +11,7 @@
     "--device=dri",
     "--share=network",
     "--filesystem=xdg-music",
+    "--filesystem=xdg-run/mpd",
     "--talk-name=org.freedesktop.Notifications",
     "--talk-name=org.freedesktop.FileManager1",
     "--own-name=org.mpris.MediaPlayer2.mpdevil"
