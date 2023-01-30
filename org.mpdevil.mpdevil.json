@@ -23,8 +23,8 @@
       "sources": [{
         "type": "git",
         "url": "https://github.com/SoongNoonien/mpdevil.git",
-        "tag": "v1.10.0",
-        "commit": "65668a4163cc46f6c36bfcfaf4d86adfa2464604"
+        "tag": "v1.10.1",
+        "commit": "97e6a371440a8532783845cb8eb7446857d60a76"
       }],
       "buildsystem": "simple",
       "build-commands": [
