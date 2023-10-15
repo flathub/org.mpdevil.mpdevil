@@ -28,7 +28,7 @@
       }],
       "buildsystem": "simple",
       "build-commands": [
-        "meson builddir --prefix=/app",
+        "meson setup builddir --prefix=/app",
         "ninja -C builddir install",
         "glib-compile-schemas /app/share/glib-2.0/schemas"
       ]
