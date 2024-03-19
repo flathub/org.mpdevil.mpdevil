@@ -20,12 +20,18 @@
     "python-libs.json",
     {
       "name": "mpdevil",
-      "sources": [{
-        "type": "git",
-        "url": "https://github.com/SoongNoonien/mpdevil.git",
-        "tag": "v1.11.0",
-        "commit": "d7c46fde239d6de555b93d92b1e0b3ebcf17405c"
-      }],
+      "sources": [
+        {
+          "type": "git",
+          "url": "https://github.com/SoongNoonien/mpdevil.git",
+          "tag": "v1.11.0",
+          "commit": "d7c46fde239d6de555b93d92b1e0b3ebcf17405c"
+        },
+        {
+          "type": "patch",
+          "path": "add-developer-name.patch"
+        }
+      ],
       "buildsystem": "simple",
       "build-commands": [
         "meson setup builddir --prefix=/app",
